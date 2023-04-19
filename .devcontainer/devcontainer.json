@@ -1,0 +1,48 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"postCreateCommand": "chmod +x ./install.sh && ./install.sh",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+			"plugins": "colored-man-pages colorize git direnv dotenv emoji encode64 extract fd gh git-prompt history nmap node npm ripgrep sudo systemadmin systemd taskwarrior torrent urltools vscode web-search yarn zsh-interactive-cd zsh-navigation-tools",
+			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-syntax-highlighting https://github.com/ChesterYue/ohmyzsh-theme-passion",
+			"username": "root"
+		}
+	},
+	"customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.anycode",
+                "editorconfig.editorconfig",
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "donjayamanne.githistory",
+                "mhutchie.git-graph",
+                "codezombiech.gitignore",
+                "oderwat.indent-rainbow",
+                "shardulm94.trailing-spaces",
+                "irongeek.vscode-env",
+                "yzhang.markdown-all-in-one",
+                "bierner.markdown-checkbox",
+                "bierner.markdown-mermaid",
+                "davidanson.vscode-markdownlint",
+                "bradlc.vscode-tailwindcss",
+                "gencer.html-slim-scss-css-class-completion",
+                "jpoissonnier.vscode-styled-components",
+                "wix.vscode-import-cost",
+                "timonwong.shellcheck",
+                "foxundermoon.shell-format",
+                "gruntfuggly.todo-tree",
+                "pkief.material-icon-theme",
+                "catppuccin.catppuccin-vsc",
+                "bodil.file-browser",
+                "christian-kohler.path-intellisense",
+                "alexdima.copy-relative-path",
+                "rioj7.commandOnAllFiles",
+                "bierner.emojisense",
+                "ms-vscode.hexeditor",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
+}

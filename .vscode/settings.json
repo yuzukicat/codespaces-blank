@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.colorTheme": "Catppuccin Latte",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "\"Fira Code\"",
+    "terminal.integrated.fontSize": 13,
+}
