@@ -1,6 +1,6 @@
 ## A modified github codespaces template from the official github/codespaces-blank template 
 
-[![codespaces blank modified][codespaces-blank-modified]](/codespaces-blank-modified.png)
+![codespaces blank modified](./codespaces-blank-modified.png)
 
 ### Zsh Plugins:
 
